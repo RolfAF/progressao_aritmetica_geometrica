@@ -78,13 +78,13 @@
                     fwrite($file, json_encode($array));
                     fclose($file);
                     ?>
-                    <form action="/test/download.php" method="post">
+                    <form action="download.php" method="post">
                         <input type="submit" name="button3" value="Download JSON"/>
                     </form>
-                    <form action="/test/page2.php" method="post">
+                    <form action="page2.php" method="post">
                         <input type="submit" name="button4" value="Visualizar Gráfico"/>
                     </form>
-                    <form action="/test/index.php" method="post">
+                    <form action="index.php" method="post">
                         <input type="submit" name="button5" value="Voltar"/>
                     </form>
                     <?php
@@ -125,20 +125,20 @@
                     fwrite($file, json_encode($array));
                     fclose($file);
                     ?>
-                    <form action="/test/download.php" method="post">
+                    <form action="download.php" method="post">
                         <input type="submit" name="button3" value="Download JSON"/>
                     </form>
-                    <form action="/test/page2.php" method="post">
+                    <form action="page2.php" method="post">
                         <input type="submit" name="button4" value="Visualizar Gráfico"/>
                     </form>
-                    <form action="/test/index.php" method="post">
+                    <form action="index.php" method="post">
                         <input type="submit" name="button5" value="Voltar"/>
                     </form>
                     <?php
                 }
             }else{
                 ?>
-                <form action="/test/index.php" method="post">
+                <form action="index.php" method="post">
                     <input type="submit" name="button5" value="Voltar"/>
                 </form>
                 <?php
