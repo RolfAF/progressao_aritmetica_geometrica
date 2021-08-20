@@ -151,7 +151,7 @@ for($i = 0; $i <= sizeof($array); $i++){
 
     <form method="post" enctype="multipart/form-data">
         Selecione outro arquivo JSON:
-        <input type="text" name="fileToUpload" id="fileToUpload">
+        <input type="text" name="fileToUpload" id="fileToUpload" value="teste1.json">
         <input type="submit" name="button1" value="Upload"/>
     </form> 
 
