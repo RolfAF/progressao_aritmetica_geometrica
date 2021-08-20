@@ -44,7 +44,7 @@
         Insira os valores para gerar a progressão:
     </h4>
         
-    <form action="/test/page1.php" method="post">
+    <form action="page1.php" method="post">
         <label for="valor">Valor Inicial:</label><br>
         <input type="text" id="valor" name="valor"><br>
         <label for="razao">Razão de Progressão:</label><br>
